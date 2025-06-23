@@ -1,0 +1,412 @@
+/* CSS file for css_ihv2.css */
+/* My own font */
+/* CSS file for my_Portfoliov1 */
+@font-face {
+    font-family: 'Streetschronic Font';
+    src:
+    local('Streetschronic Font'),
+    local('StreetschronicFont'),
+    url('https://pui55y/1.0.0/media/StreetschronicFont-Regular-_14_.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* puiggysoft.co.uk\pui55y\1.0.0\media\StreetschronicFont-Regular-_14_.woff */
+:root {
+    --main_font: 'Streetschronic Font', sans-serif;
+    --info-font: Arial, Helvetica, sans-serif;
+    /* --link-color-hover: aqua; */
+    /* --link-box-color-hover: coral; */
+    --color-orange: orange;
+    --color-tan: tan;
+    --color-wheat: :wheat;
+    --color-div:  rgb(210, 144, 144);
+    --color-brown: brown;
+    --color-choco: rgb(80, 53, 18);
+    --color-fgreen:  forestgreen;
+    --color-silver: silver;
+    --color-darkog: darkolivegreen;
+    --border-green: 2px solid  forestgreen;
+    --border-silver: 2px solid silver;
+    --border-choco: 2px solid rgb(80, 53, 18);
+    --border-orange: 4px solid orange;
+}
+*{
+    font-family: var(--main_font); /*'Streetschronic Font', sans-serif; */
+    font-size: 18px;
+    /*font-size: 10px; // arial size */
+    color: var(--color-tan);
+}
+
+body {
+    /* background-color: black; */
+    background-color: white;
+    align-items: center;
+    /* height: 100%;
+    width: 100%; */
+    /* background-image: url('/puiggysoft.co.uk/pui55y/1.0.0/media/crick_hashB7BEC8_bluegreysilver.png');
+    background-repeat:no-repeat;
+    background-size: 860px 1430px;
+    background-position-x:25dvw;
+    background-position-y:25dvh; */
+
+}
+
+
+
+
+
+
+
+#puimain {
+    background-color: black;
+    height: 1800px;
+    width: 100%;
+    background-image: url('https://innavihowe.co.uk/pui55y/1.0.0/media/crick_hashB7BEC8_bluegreysilver.png');
+    background-repeat:no-repeat;
+    /* background-size: 860px 1430px; */
+    background-size: 70% 1430px;
+    background-position-x:15dvw;
+    background-position-y:40dvh;
+}
+
+/* #amghmain {
+    background-color: black;
+    height: 1800px;
+    width: 100%;
+    background-image: url('https://innavihowe.co.uk/media/portrait__4blamgih.png');
+    background-repeat:no-repeat;
+    background-size: 480px 640px;
+    background-position-x:35dvw;
+    background-position-y:45dvh;
+} */
+
+/* #innmain, #innprjmain, #innblgmain {
+    background-color: black;
+    height: 1800px;
+    width: 100%;
+    background-image: url('https://innavihowe.puiggysoft.co.uk/media/bossyellow.png');
+    background-repeat:no-repeat;
+    background-size: 600px 450px;
+    background-position-x:30dvw;
+    background-position-y:55dvh;
+} */
+
+/* #stchmain {
+    background-color: black;
+    height: 1800px;
+    width: 100%;
+    background-image: url('https://streetschronic.puiggysoft.co.uk/media/the_foowv1_2023-10-26.png');
+    background-repeat:no-repeat;
+    background-size: 550px 600px;
+    background-position-x:35dvw;
+    background-position-y:55dvh;
+} */
+
+
+
+
+
+#div_amgh_background {
+    color: var(--color-tan);
+    width:90%; /*860px;*/
+    margin:20px;
+    /* padding:20px; */
+    height:300px;
+    /* border:2px solid var(--color-silver); */
+    display:block;
+}
+
+
+#div_ih_background {
+    color: var(--color-tan);
+    width:80%; /*860px;*/
+    margin:20px;
+    height:300px;
+    /* border:2px solid var(--color-silver); */
+    display:block;
+}
+
+
+#div_stch_background {
+    color: var(--color-tan);
+    width:90%; /*860px;*/
+    margin:20px;
+    height:900px;
+    /* border:2px solid var(--color-silver); */
+    display:block;
+}
+
+h1, h2, h3 {
+    color:  var(--color-tan);
+}
+
+nav a {
+    display:block;
+    text-decoration: none;
+    color: var(color-silver);
+    /* background: var(--color-fgreen); */
+    margin-left: 15px;
+}
+
+
+header {
+    top:0px;
+    /* position: sticky; */
+    width:70%;
+    margin: 20px auto;
+    padding: 20px;
+    /* text-align: center; */
+    align-items: center;
+    background: black;
+    border: 2px solid var(--color-silver);
+    border-radius: 10px;
+    /* align-items: center; */
+    /* border-radius:5%; */
+    /* width:80%; */
+    box-shadow: 10px 10px 10px rgba(54, 75, 41, 0.75);
+}
+.header-grid {
+    display: grid;
+    grid-template-columns:repeat( 5, 1fr);
+    gap: 5px;
+}
+header h1{
+    grid-column: span 2;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+header h3 {
+    grid-column: span 2;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+header h1, h3 {
+    /* color: var(--color-tan); */
+    border:2px solid var(--color-silver);
+    border-radius: 5%;
+    margin:5px;
+}
+
+header nav {
+    grid-column: span 2;
+    justify-self: right;
+}
+header nav a {
+    display:inline-block;
+    text-decoration: none;
+    color: var(color-silver);
+    /* background: var(--color-fgreen); */
+    margin-left: 15px;
+}
+
+
+.div_background {
+    width:80%; /*860px;*/
+    margin:20px;
+    height:90%;
+    align-self: center;
+    border:2px solid var(--color-orange);
+    display:block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:repeat( 2, 1fr);
+    gap: 5px;
+}
+
+.div_dialogue {
+    /* display: none; */
+    grid-column: span 2;
+    text-align: center;
+    background-color: black;
+    color: var(--color-tan);
+    border: var(--border-silver);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius:5%;
+    width:80%;
+    box-shadow: 10px 10px 10px rgba(54, 75, 41, 0.75);
+}
+
+#id_div_diag {
+    width: 60%;
+}
+
+.h1_centre {
+    text-align: center;
+}
+
+/* innavihowe cards */
+.ihcard {
+    grid-column: span 1;
+    background: var(--color-darkog);
+    margin: 10px auto;
+}
+.ihcard2{
+    grid-column: span 1;
+    align-items: center;
+    /* background: darkolivegreen; */
+    margin: 10px auto;
+}
+.ihcard3{
+    grid-column: span 1;
+    align-items: center;
+    /* background: darkolivegreen; */
+    margin: 10px auto;
+}
+intro {
+    /* display: none; */
+    padding: 10px;
+    margin: 10px;
+    max-width: 80%;
+    background-color: rgb(145, 33, 145);
+}
+
+
+
+/* .grid2 {
+    display: grid;
+    grid-template-columns:repeat( 2, 1fr);
+    gap: 5px;
+} */
+
+main #idgrid {
+    /* display: none; */
+    padding: 10px;
+    margin: 10px;
+    max-width: 90%;
+    background-color: rgb(145, 33, 145);
+}
+   
+summary {
+    /* display: none; */
+    /* font-size: 1.8rem; */
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-silver);
+    text-decoration: none;
+    background-color: black;
+    /* border: var(--border-silver); */
+    border-radius:10%;
+    margin: 10px auto;
+    /* background-color: rgb(21, 78, 19); */
+}
+summary:hover{
+    background-color: var(--color-silver);
+    color: var(--color-choco);
+}
+/* main img {
+    grid-column: span 6;
+    width: 100%;
+} */
+
+
+/* .div_welcome { */
+    /* display: none; */
+    /* grid-column: 1/ span 3;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-silver);
+    text-decoration: none;
+    background-color: black; */
+    /* background-color: yellow; */
+/* } */
+main h2 {
+    /* display: none; */
+    grid-column: span 4;
+    text-align: center;
+    font-size: 1.50rem;
+    color: var(--color-silver);
+    text-decoration: none; /*underline;*/
+    background-color: black;
+}
+main h3 {
+    /* display: none; */
+    grid-column: span 4;
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--color-silver);
+    text-decoration: none; /*underline;*/
+    background-color: black;
+}
+#p_about_me {
+    /* display: none; */
+    color: var(--color-tan);
+} 
+.card {
+    /* display: none; */
+    text-align: center;
+    grid-column: span 4;
+    /* background: darkolivegreen; */
+    padding: 10px 10px;
+    margin: 10px auto;
+    border: var(--border-silver);
+    border-radius:5%;
+}
+
+
+
+.card h1:hover {
+    background-color: grey;
+    color: pink;
+}
+.card-hover:hover {
+    border: var(--border-orange);
+    border-radius:5%;
+}
+
+/* .ih-footnote {
+    position:bottom;
+    bottom:0%;
+    padding: 10px 10px;
+    grid-column: 2/ span 3;
+    text-align: right;
+    width:70%;
+    align-self: center;
+    align-items: center; */
+    /*font-size: 1.25rem; */
+    /* color: var(--color-silver);
+    background-color: rgb(44, 3, 3);
+} */
+.ih-footnote {
+    position:bottom;
+    bottom:0%;
+    width:70%;
+    margin: 20px auto;
+    padding: 20px;
+    /* text-align: center; */
+    align-items: center;
+    background: rgb(44, 3, 3);
+    border: 2px solid var(--color-silver);
+    border-radius: 10px;
+    /* align-items: center; */
+    /* border-radius:5%; */
+    /* width:80%; */
+    box-shadow: 10px 10px 10px rgba(54, 75, 41, 0.75);
+}
+a:hover {
+    background-color: red;
+}
+
+
+/* half-screen */
+@media (max-width:860px) {
+    /* #puimain{
+        background-size: 430px 715px;
+    } */
+    .card {
+        grid-column: span 1;
+    }
+}
+/* mobile-phone */
+@media (max-width:700px) {
+    /* #puimain {
+        background-size: 300px 715px;
+    } */
+    .card {
+        grid-column: span 1;
+    }
+
+
+}
