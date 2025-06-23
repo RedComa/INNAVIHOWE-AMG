@@ -6,6 +6,6 @@ echo '<h1><img src="./pui55y/1.0.0/media/bossyellow.png" id="psentryimg" alt="pu
     <a href="#TUIT1">TUITION</a>
     <a href="#RESO1">LEARNING RESOURCES</a>
     <a href="#PRJB1">Project Blogs</a>
-    <a href="#CONT1">CONTACT</a>
+    <a href="#CONT1">CONTA CT</a>
 </nav>';
 ?>
